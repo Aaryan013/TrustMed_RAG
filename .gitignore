@@ -1,0 +1,23 @@
+# Environment variables — NEVER commit this
+.env
+
+# Python virtual environment
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Large data files & Archives
+*.csv
+*.zip
+
+# Agent Scratch/Temp Directories
+.scratch/
+.gemini/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
